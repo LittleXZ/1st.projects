@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>我的演示</title>
+  </head>
+  <body>
+    <form action="/abc">
+      <div>
+        <label for="name">姓名:</label>
+        <input type="text" name="name" id="name" placeholder="姓名">
+      </div>
+      <div>
+        <label for="password">密码:</label>
+        <input type="password" name="password" id="password" placeholder="密码">
+      </div>
+      <div>
+        <label>性别:</label>
+        <input type="radio" name="sex" value="男" checked>男
+        <input type="radio" name="sex" value="女">女
+      </div>
+      <div>
+        <label>取向:</label>
+        <input type="radio" name="sex1" value="男">男
+        <input type="radio" name="sex1" value="女" checked>女
+      </div>
+      <div>
+        <label>爱好:</label>
+        <input type="checkbox" name="intersted" value="dota">dota
+        <input type="checkbox" name="intersted" value="旅游" checked>旅游
+        <input type="checkbox" name="intersted" value="宠物" checked>宠物
+      </div>
+      <div>
+        <label>评论：</label>
+        <textarea name="textarea" id="textarea" placeholder="摄像师就位，灯光师就位，这位同学，请说出你的故事，要不要让我把话筒塞你嘴巴里面，蟹蟹" cols="30" rows="10" ></textarea>
+      </div>
+      <div>
+        <label>我的car:</label>
+        <select name="mycar" id="mycar">
+          <option value="AE86" checked>AE86</option>
+          <option value="GTR3">AE86</option>
+          <option value="二手奥拓">AE86</option>
+        </select>
+        <button type="submit">按这里</button>
+      </div>
+      <input name="token" type="hidden" value="43876kljsdu347845">
+    </form>
+  </body>
+</html>
