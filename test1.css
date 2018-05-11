@@ -2,7 +2,7 @@
 * @Author: LongDark
 * @Date:   2018-05-11 16:04:20
 * @Last Modified by:   win7
-* @Last Modified time: 2018-05-11 21:11:03
+* @Last Modified time: 2018-05-11 21:24:04
 */
 /*主体样式*/
 *{
@@ -13,6 +13,7 @@
 body{
   font:14px/1.5;
   background-color:#fff2e3;
+  font-family: "SimSun","SimHei","Microsoft YaHei";
 }
 a{
   text-decoration:none;
