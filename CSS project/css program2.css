@@ -1,0 +1,52 @@
+/*
+* @Author: win7
+* @Date:   2018-05-12 01:52:57
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-13 01:09:02
+*/
+a{
+  text-decoration: none;
+}
+.main{
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin: 5px;
+  padding: 8px 18px;
+  border-radius:5px;
+  transition:all .3s;
+}
+.btn:hover{
+  margin:0 10px;
+  font-size:110%;
+  opacity:.6;
+  width:55px;
+  height:25px;
+  box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2),0 8px 20px 0 rgba(0,0,0,0.6)
+}                       
+.btn:active{
+  opacity:.8;
+}                                                                                                                   
+.q1{
+  color: #fff;
+  background: #000;
+}
+.q2{
+  color: black;
+  background: yellow;
+}
+.q3{
+  color: black;
+  background: orange;
+}
+.q4{
+  color:white;
+  background: red;
+}
+.q5{
+  color:white;
+  background: green;
+}

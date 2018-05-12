@@ -1,0 +1,28 @@
+/*
+* @Author: LongDark
+* @Date:   2018-05-13 02:30:15
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-13 02:54:58
+* 图片样式
+*/
+.main-img{
+  display: inline-block;
+  margin-top:30px;
+  height:681.8px;
+  width:490px;
+  background-image:url(https://upload-images.jianshu.io/upload_images/11954160-5af85dca320d100a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700);
+  background-position:45% 80%;
+  background-size: 490px 681.8px;
+}
+@keyframes ani{
+  0%{
+    background-size: 490px 681.8px;        /*若不设置 0%：没有平滑的动画效果 */
+  }                                        /*若设置多个百分梯度：动画会分梯度生硬过度*/
+  100%{
+    background-size: 700px 974px;
+  }
+}
+.main-img:hover{
+  animation:ani 1.5s;                        /*与@keyframes绑定 并规定在1s内完成动画*/
+  animation-fill-mode : forwards;          /*鼠标不离开容器，仍保持动画的最后效果*/
+}
