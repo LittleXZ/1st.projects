@@ -1,0 +1,39 @@
+/*
+* @Author: LongDark
+* @Date:   2018-05-13 16:03:41
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-13 17:26:34
+*/
+table{
+  border-spacing:0px;
+  font-size: 16px;
+  text-align:center;
+  margin-top:30px;
+}
+.mtb{
+  width: 600px;
+  margin: 30px auto;
+}
+.tb1 tbody tr:nth-child(2n+1),.tb2 tbody tr:nth-child(2n+1){
+  background-color:#eee;
+}
+.tb1{
+  border:1px solid #ccc;
+}
+.mtb th{
+  width:200px;
+  padding:8px;
+  font-weight:bold;
+}
+.tb1 th{
+  background-color:#4CAF50;
+  color:#fff;
+}
+.tb1 td{
+  width:200px;
+  padding:5px;
+}
+.tb2 td{
+  width:200px;
+  padding:5px;
+}
