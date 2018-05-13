@@ -2,12 +2,12 @@
 * @Author: LongDark
 * @Date:   2018-05-11 16:04:20
 * @Last Modified by:   win7
-* @Last Modified time: 2018-05-13 02:31:08
+* @Last Modified time: 2018-05-14 00:34:52
 */
 /*主体样式*/
 body{
   text-align:center;
-  font:14px/1.5;
+  font-size:14px;
   background-color:#fff2e3;
   font-family: "SimSun","SimHei","Microsoft YaHei";
 }
@@ -29,14 +29,15 @@ a{
 }
 .bt1{
   height: 80px;
+  margin:50px auto;
 }
 .b1{
   display:inline-block;
-  width:60px;
-  height:20px;
-  font-size: 20px;
+  width:80px;
+  height:25px;
+  font-size: 14px;
   padding:8px 18px;
-  margin:30px 15px 0 15px;
+  margin:30px 15px;
   border-radius:5px;
   letter-spacing:2px;
   background-color:#55aa79;
@@ -45,9 +46,9 @@ a{
 }
 .b1:hover{
   margin:30px 30px 0 20px;
-  font-size:22px;
-  width:66px;
-  height:22px;
+  font-size:16px;
+  width:88px;
+  height:28px;
   background-color:#448861;
   box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2),0 8px 20px 0 rgba(0,0,0,0.6)
 }

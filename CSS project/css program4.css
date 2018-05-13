@@ -1,0 +1,49 @@
+/*
+* @Author: LongDark
+* @Date:   2018-05-13 23:33:39
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-13 23:59:35
+*/
+div{
+  width:0px;
+  height:0px;
+  margin-top:40px;
+}
+.p1{
+  border-top:solid 50px blue;
+  border-left:solid 50px yellow;
+  border-right:solid 50px green;
+  border-bottom:solid 50px red;
+}
+.p2{
+  border-top:solid 50px blue;
+  border-right:solid 50px rgba(0,0,0,0);
+  border-left:solid 50px rgba(0,0,0,0);
+}
+.p3{
+  border-top:solid 50px rgba(0,0,0,0);
+  border-bottom:solid 50px rgba(0,0,0,0);
+  border-left:solid 50px red;
+}
+.p4{
+  border-top:solid 50px rgba(0,0,0,0);
+  border-bottom:solid 50px rgba(0,0,0,0);
+  border-right:solid 50px yellow;
+}
+.p5{
+  border-bottom:solid 50px green;
+  border-right:solid 50px rgba(0,0,0,0);
+  border-left:solid 50px rgba(0,0,0,0);
+}
+.p6{
+  border-top:solid 50px rgba(0,0,0,0);
+  border-left:solid 50px red;
+  border-right:solid 50px rgba(0,0,0,0);
+  border-bottom:solid 50px red;
+}
+.p7{
+  border-top:solid 50px rgba(0,0,0,0);
+  border-left:solid 50px rgba(0,0,0,0);
+  border-right:solid 50px green;
+  border-bottom:solid 50px green;
+}
