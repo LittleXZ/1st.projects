@@ -2,7 +2,7 @@
 * @Author: win7
 * @Date:   2018-05-12 01:52:57
 * @Last Modified by:   win7
-* @Last Modified time: 2018-05-13 01:09:02
+* @Last Modified time: 2018-05-14 14:24:57
 */
 a{
   text-decoration: none;
@@ -10,7 +10,7 @@ a{
 .main{
   text-align: center;
 }
-.btn{
+.bt{
   display: inline-block;
   width: 50px;
   height: 20px;
@@ -19,7 +19,7 @@ a{
   border-radius:5px;
   transition:all .3s;
 }
-.btn:hover{
+.bt:hover{
   margin:0 10px;
   font-size:110%;
   opacity:.6;
@@ -27,7 +27,7 @@ a{
   height:25px;
   box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2),0 8px 20px 0 rgba(0,0,0,0.6)
 }                       
-.btn:active{
+.bt:active{
   opacity:.8;
 }                                                                                                                   
 .q1{
