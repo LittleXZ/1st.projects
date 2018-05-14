@@ -2,12 +2,12 @@
 * @Author: LongDark
 * @Date:   2018-05-11 16:04:20
 * @Last Modified by:   win7
-* @Last Modified time: 2018-05-14 00:34:52
+* @Last Modified time: 2018-05-14 14:05:58
 */
 /*主体样式*/
 body{
   text-align:center;
-  font-size:14px;
+  font:16px;
   background-color:#fff2e3;
   font-family: "SimSun","SimHei","Microsoft YaHei";
 }
@@ -28,27 +28,28 @@ a{
   letter-spacing:6px;
 }
 .bt1{
-  height: 80px;
-  margin:50px auto;
+  height:40px;
+  margin:40px auto 20px auto;
 }
 .b1{
+  line-height:40px;
   display:inline-block;
-  width:80px;
-  height:25px;
-  font-size: 14px;
-  padding:8px 18px;
-  margin:30px 15px;
+  width:120px;
+  height:40px;
+  font-size: 16px;
+  margin:0 15px;
   border-radius:5px;
-  letter-spacing:2px;
+  letter-spacing:4px;
   background-color:#55aa79;
   color:#fff;
   transition:all .3s;
 }
 .b1:hover{
-  margin:30px 30px 0 20px;
-  font-size:16px;
-  width:88px;
-  height:28px;
+  line-height:46px;
+  margin:0px 30px 0 20px;
+  font-size:22px;
+  width:140px;
+  height:50px;
   background-color:#448861;
   box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2),0 8px 20px 0 rgba(0,0,0,0.6)
 }
@@ -99,4 +100,26 @@ a{
 }
 .copyright{
   color:#666;
+}
+/*图片样式*/
+.main-img{
+  display: inline-block;
+  margin-top:30px;
+  height:681.8px;
+  width:490px;
+  background-image:url(https://upload-images.jianshu.io/upload_images/11954160-5af85dca320d100a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700);
+  background-position:45% 80%;
+  background-size: 490px 681.8px;
+}
+@keyframes ani{
+  0%{
+    background-size: 490px 681.8px;        /*若不设置 0%：没有平滑的动画效果 */
+  }                                        /*若设置多个百分梯度：动画会分梯度生硬过度*/
+  100%{
+    background-size: 700px 974px;
+  }
+}
+.main-img:hover{
+  animation:ani 1.5s;                        /*与@keyframes绑定 并规定在1s内完成动画*/
+  animation-fill-mode : forwards;          /*鼠标不离开容器，仍保持动画的最后效果*/
 }
