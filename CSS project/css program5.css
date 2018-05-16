@@ -1,0 +1,21 @@
+/*
+* @Author: LongDark
+* @Date:   2018-05-16 15:21:18
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-16 15:52:08
+*/
+div{
+  background-image: url("../images/css_sprites.png");
+  width:220px;
+  height: 220px;
+  display: inline-block;
+  border:1px solid;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.box1{
+  background-position: right;
+}
+.box2{
+  background-position: left;
+}
