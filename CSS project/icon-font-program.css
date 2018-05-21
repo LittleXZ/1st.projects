@@ -2,15 +2,15 @@
 * @Author: LongDark
 * @Date:   2018-05-19 10:26:44
 * @Last Modified by:   win7
-* @Last Modified time: 2018-05-19 11:51:47
+* @Last Modified time: 2018-05-21 10:37:44
 */
 @font-face {
   font-family: 'iconfont';  /* project id 672742 */
-  src: url('http://at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.eot');
-  src: url('http://at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.eot');
+  src: url('//at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_672742_lgbpcfukc0e019k9.svg#iconfont') format('svg');
 }
 p{
   font-family: iconfont;
