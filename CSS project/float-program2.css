@@ -1,0 +1,57 @@
+/*
+* @Author: LongDark
+* @Date:   2018-05-21 16:04:22
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-22 18:17:52
+*/
+/*全局设置*/
+*{
+  padding: 0;
+  margin: 0;
+}
+/*方框样式设置*/
+.notice{
+  position: relative;
+  margin: 20px auto;
+  width: 550px;
+  height: 120px;
+  border-radius:6px;
+}
+.n1{
+  background-color: rgba(251,80,18,1.0);
+} 
+.n2{
+  background-color: rgba(1,253,246,1.0);
+}
+.n3{
+  background-color: rgba(212,198,240,1.0);
+}
+.n4{
+  background-color: rgba(233,223,0,1.0);
+}
+/*文字设置*/
+p{
+  position:absolute;
+  display:block;
+  color:rgba(255,255,255,1.0);
+}
+.p1{
+  font-size: 28px;
+  font-weight: bold;
+  top:10px;
+  left:25px;
+}
+.p2{
+  font-size: 20px;
+  top:70px;
+  left:25px;
+}
+/*X图标样式*/
+span{
+  position:absolute;
+  color: rgba(255,255,255,1.0);
+  font-size: 25px;
+  font-weight: bold;
+  right: 20px;
+  cursor: pointer;
+}
