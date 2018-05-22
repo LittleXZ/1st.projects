@@ -2,14 +2,15 @@
 * @Author: LongDark
 * @Date:   2018-05-11 16:04:20
 * @Last Modified by:   win7
-* @Last Modified time: 2018-05-14 14:05:58
+* @Last Modified time: 2018-05-22 17:32:26
 */
 /*主体样式*/
 body{
   text-align:center;
   font:16px;
-  background-color:#fff2e3;
+  background-color:#FFF8E5;
   font-family: "SimSun","SimHei","Microsoft YaHei";
+  margin:120px 0 0 0;
 }
 a{
   text-decoration:none;
@@ -46,7 +47,7 @@ a{
 }
 .b1:hover{
   line-height:46px;
-  margin:0px 30px 0 20px;
+  margin:0px 20px 0 20px;
   font-size:22px;
   width:140px;
   height:50px;
@@ -122,4 +123,72 @@ a{
 .main-img:hover{
   animation:ani 1.5s;                        /*与@keyframes绑定 并规定在1s内完成动画*/
   animation-fill-mode : forwards;          /*鼠标不离开容器，仍保持动画的最后效果*/
+}
+/*导航栏样式*/
+nav{
+  font-weight: bold;
+  display: inline-block;
+  background-color: rgba(255,248,229,0.8);
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0 1px 20px 1px rgba(214,208,184,1.8);
+  position: fixed;
+  top:0;
+  left:0;
+}
+nav *{
+  padding: 0;
+  margin: 0;
+}
+nav a{
+  display: inline-block;
+  color: #333;
+  padding: 30px 40px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+nav a:hover{
+  border-radius:2px;
+  color: #fff;
+  background-color: rgba(85,170,121,0.8);
+}
+ul{
+  list-style: none;
+}
+.main-icon{                       /*左侧图标*/
+  background-image:url(images/826638902195112976.jpg);
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  border-radius: 50%;
+  float:left;
+  position: relative;
+  left: 80px;
+  width:80px;
+  height:80px;
+}
+nav>ul{
+  float: right;              /*导航栏右侧浮动*/
+}
+nav>ul{
+  position: relative;
+  right:100px;                /*导航栏样式靠中间*/
+}
+nav>ul>li{
+  float: left;
+  position: absolute;
+}
+.child{
+  position: relative;
+}
+.secmu{
+  position: absolute;
+  display: none;
+}
+.secmu a{
+  background: #FFF8E5;
+  padding: 15px 40px;
+  border-radius:4px;
+}
+.child:hover .secmu{
+  display: block;
 }
