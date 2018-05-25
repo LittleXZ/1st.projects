@@ -1,0 +1,55 @@
+/*
+* @Author: LongDark
+* @Date:   2018-05-25 11:04:26
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-25 11:59:35
+*/
+
+/*主体样式*/
+*{
+  padding: 0;
+  margin: 0;
+}
+.main-content{
+  width: 820px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:40px;
+}
+h1{
+  text-align: center;
+  color:#666;
+  border-bottom:2px solid #aaa;
+  padding-bottom: 20px;
+}
+/*内部样式*/
+.main-content ul{
+  list-style: none;
+  margin-top: 40px;
+}
+.content{
+  margin-left: -20px;
+}
+.content li{
+  width: 260px;
+  float:left;
+  margin-left:20px;
+  margin-bottom: 20px; 
+  box-shadow:0 2px 20px 1px rgba(120,120,120,1.0);
+  border-radius: 2px;
+}
+.content:after{
+  display: block;
+  content: "";
+  clear:both;
+}
+.content li>img{
+  opacity: 0.8;
+  width: 100%;
+}
+.content li>p{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  margin: 16px ;
+}
