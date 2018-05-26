@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="../button.css">
+      <style>
+        .layout{
+          text-align: center;
+          background: grey;
+          height: 200px;
+        }
+        .layout:before{
+          content: '';
+          display: inline-block;
+          vertical-align: middle;
+          height: 100%;
+        }
+        .main{
+          vertical-align: middle;
+          display: inline-block;
+        }
+        a{
+          display: inline-block;
+          text-decoration: none;
+          color: #fff;
+          padding: 10px;
+          background: red;
+          border-radius:4px;
+        }
+      </style>
+    </head>
+    <body> 
+      <div class="layout">
+        <div class="main">
+          <a href="#" class="btn">按钮1</a>
+          <a href="#" class="btn">按钮2</a>
+          <a href="#" class="btn">按钮3</a>
+        </div>
+      </div>
+      <hr>
+      <a class="btn b1" href="../index.html">返回主页</a>
+    </body>
+</html>

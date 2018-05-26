@@ -1,0 +1,40 @@
+/*
+* @Author: win7
+* @Date:   2018-05-25 22:22:59
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-25 23:53:17
+*/
+/*第一种方法*/
+.main1{
+  padding: 0;
+  margin: 0;
+}
+.child1{
+  float: left;
+  width: 200px;
+  height: 500px;
+  background:red;
+}
+.child2{
+  margin-left:210px;
+  height: 500px;
+  background:pink;
+}
+/*第二种方法*/
+.main2{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.child3{
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  background:red;
+}
+.child4{
+  margin-left:210px;
+  height: 500px;
+  background:pink;
+}

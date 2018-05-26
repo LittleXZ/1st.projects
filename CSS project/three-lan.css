@@ -1,0 +1,41 @@
+/*
+* @Author: win7
+* @Date:   2018-05-25 23:44:42
+* @Last Modified by:   win7
+* @Last Modified time: 2018-05-26 15:19:11
+*/
+.main-left{
+  float: left;
+  width: 200px;
+  height: 500px;
+  background:red;
+}
+.main-right{
+  float:right;
+  width: 200px;
+  height: 500px;
+  background:blue;
+}
+.main{
+  margin:0 210px;
+  height: 500px;
+  background:pink;
+}
+/*样式二*/
+.layout2{
+  display: flex;
+}
+.main-left2{
+  width: 200px;
+  background:red;
+}
+.main-right2{
+  width: 200px;
+  background:blue;
+}
+.main2{
+  flex:1;
+  margin:0 10px;
+  height: 500px;
+  background:pink;
+}
