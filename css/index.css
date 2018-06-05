@@ -55,16 +55,16 @@ hr{
 .background-image{
   position: relative;
   height: 600px;
-  background-image:url(images/background-image.jpg) ;
+  background-image:url(../images/background-image.jpg) ;
   background-size:100%;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 .title{
   display: inline-block;
   width: 300px;
   position: absolute;
   top:50%;
-  left:50%; 
+  left:50%;
   margin:-34px 0 0 -150px ;
   font-size:60px;
   color:#fff;
