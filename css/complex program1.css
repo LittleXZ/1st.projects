@@ -7,8 +7,11 @@
 @font-face {
   font-family: 'iconfont';
   /* project id 691202 */
-  src: url('http://at.alicdn.com/t/font_691202_748zgce0nyhf47vi.eot');
-  src: url('http://at.alicdn.com/t/font_691202_748zgce0nyhf47vi.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_691202_748zgce0nyhf47vi.woff') format('woff'), url('http://at.alicdn.com/t/font_691202_748zgce0nyhf47vi.ttf') format('truetype'), url('http://at.alicdn.com/t/font_691202_748zgce0nyhf47vi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_691202_748zgce0nyhf47vi.eot');
+  src: url('//at.alicdn.com/t/font_691202_748zgce0nyhf47vi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_691202_748zgce0nyhf47vi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_691202_748zgce0nyhf47vi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_691202_748zgce0nyhf47vi.svg#iconfont') format('svg');
 }
 
 /* 字体样式 */
