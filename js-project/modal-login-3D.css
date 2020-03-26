@@ -43,7 +43,7 @@ header{
 
 /* 模态框 */
 .flip-modal {
-  /* display: none; */
+  display: none;
 }
 .show {
   display: block;
