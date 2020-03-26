@@ -1,0 +1,156 @@
+/* 样式重置 */
+* {
+  padding: 0;
+  margin: 0;
+  color: #333;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button, input {
+  outline: none;
+}
+html,body,main{
+  height: 100vh;
+  width: 100vw;
+}
+/* body样式 */
+body {
+  background: linear-gradient(45deg, rgba(36, 129, 226, 0.5), rgba(36, 226, 123, 0.5)), url(https://upload-images.jianshu.io/upload_images/11954160-2c7634785e411c7f.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp) no-repeat;
+  background-size: cover;
+}
+
+/* 导航栏 */
+header{
+  position: relative;
+}
+.user-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+/* 右上角用户图标 */
+.user-icon:hover {
+  cursor:pointer;
+  color: #666;
+}
+.user-icon:active {
+  color: #333;
+}
+
+/* 模态框 */
+.flip-modal {
+  /* display: none; */
+}
+.show {
+  display: block;
+}
+/* 旋转登录/注册框 */
+.flip-modal.login .login-modal,
+.flip-modal.register .register-modal {
+  transform: translate(-50%,-50%) rotateY(0deg);
+  backface-visibility: hidden;
+  transition: all 1s;
+}
+.flip-modal.login .register-modal,
+.flip-modal.register .login-modal {
+    transform: translate(-50%,-50%) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 1s;
+}
+/* 通用样式 */
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px 2px rgba(5, 5, 5, 0.4);
+  padding: 30px 100px;
+  background: #fff;
+}
+/* 关闭按钮 */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+}
+.close:hover {
+  cursor:pointer;
+  color: #666;
+}
+.close:active {
+  color: #333;
+}
+/* 登录注册 */
+.tag {
+  text-align: center;
+}
+.tag a{
+  margin: 0 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+.tag a:hover {
+  color: #666;
+  border-bottom: 4px solid #666;
+}
+.tag a:active {
+  color: #333;
+  border-bottom: 4px solid #333;
+}
+.tag-active {
+  border-bottom: 4px solid;
+}
+/* 错误信息框 */
+.eroormsg {
+  height: 40px;
+  color: red;
+  margin-top: 20px;
+}
+/* form表单 */
+.input-box {
+  margin-top: 20px;
+  position: relative;
+}
+.input-icon {
+  font-size: 20px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.input-box input[type=text],
+.input-box input[type=password] {
+  font-size: 16px;
+  width: 100%;
+  padding: 5px 5px 5px 24px;
+  border: 1px solid #666;
+}
+.pass {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: green;
+  display: none;
+}
+/* 提交按钮 */
+.submit {
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+  border: #fff;
+  padding: 5px 10px;
+  box-shadow: 1px 2px 2px 1px rgba(5, 5, 5, 0.3);
+}
+.submit:hover {
+  cursor:pointer;
+  background: #666;
+}
+.submit:active {
+  cursor:pointer;
+  background: #333;
+}
